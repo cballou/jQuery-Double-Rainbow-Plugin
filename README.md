@@ -19,12 +19,12 @@ $.fn.doubleRainbow.defaults = {
 };
 ```
 
-* *startDistance:* The minimum distance from the target element and the mouse which triggers the gradient transition to occur. [integer]
-* *steps:* The number of gradient transition steps (transition colors). [integer]
-* *startBgColor:* The starting HEX background color of the target element. 
-* *endBgColor:* The ending HEX background color of the target element.
-* *startColor:* The starting HEX font color of the target element.
-* *endColor:* The ending HEX font color of the target element.
+* _startDistance:_ The minimum distance from the target element and the mouse which triggers the gradient transition to occur. [integer]
+* _steps:_ The number of gradient transition steps (transition colors). [integer]
+* _startBgColor:_ The starting HEX background color of the target element. 
+* _endBgColor:_ The ending HEX background color of the target element.
+* _startColor:_ The starting HEX font color of the target element.
+* _endColor:_ The ending HEX font color of the target element.
 
 ## Example Usage ##
 
@@ -42,10 +42,10 @@ $('#exampleButton').doubleRainbow({
 
 Other improvements would be to add additional configuration options for styling and animation. Here's some ideas:
 
-* Opacity
-* Border(s)
-* Gradient(s)
-* Transforms (move, scale, turn, spin, and stretch)
+* _Opacity_ - Add the ability to change opacity from `startOpacity` to `endOpacity`.
+* _Classes_ - Add the ability to add a class prefix and current step number to the target element.
+* _Gradient(s)_ - Add the ability to transition from `startGradient` to `endGradient`.
+* _Transforms_ - Add the ability to `move`, `scale`, `turn`, `spin`, and `stretch`.
 
 For something like gradients, use something like $.cssHooks to implement vendor prefix CSS.
 
