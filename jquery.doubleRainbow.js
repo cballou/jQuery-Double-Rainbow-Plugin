@@ -367,23 +367,3 @@
     bgGradientBgColorEndPos: '100%' // 0 - 100%
   };
 })(jQuery);
-
-// example usage
-$('#exampleButton').doubleRainbow({
-  startColor: '#FFF',
-  startBgColor: '#222',
-  endColor: '#FFF',
-  endBgColor: '#900'
-});
-
-/*
-background-color: #1a82f7;
-background-image: url(images/fallback-gradient.png);
-background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2F2727), to(#1a82f7));
-background-image: -webkit-linear-gradient(top, #2F2727, #1a82f7);
-background-image:    -moz-linear-gradient(top, #2F2727, #1a82f7);
-background-image:     -ms-linear-gradient(top, #2F2727, #1a82f7);
-background-image:      -o-linear-gradient(top, #2F2727, #1a82f7);
-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#1471da, endColorstr=#1C85FB);
--ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#1471da, endColorstr=#1C85FB)";
-*/
