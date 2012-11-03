@@ -1,6 +1,8 @@
 ## About ##
 
 Double Rainbow is a jQuery plugin for creating subtle, mouse-aware call to action effects on elements within your websites.
+It currently supports the transitioning of foreground and background colors on things like buttons and anchors as your mouse
+moves around a target element. The goal is to bring attention to a call to action button as the user moves closer to the element.
 
 ## Options ##
 
@@ -17,9 +19,9 @@ $.fn.doubleRainbow.defaults = {
 };
 ```
 
-* *startDistance:* The minimum distance from the target element and the mouse which triggers the gradient transition to occur
-* *steps:* The number of gradient transition steps (transition colors).
-* *startBgColor:* The starting HEX background color of the target element.
+* *startDistance:* The minimum distance from the target element and the mouse which triggers the gradient transition to occur. [integer]
+* *steps:* The number of gradient transition steps (transition colors). [integer]
+* *startBgColor:* The starting HEX background color of the target element. 
 * *endBgColor:* The ending HEX background color of the target element.
 * *startColor:* The starting HEX font color of the target element.
 * *endColor:* The ending HEX font color of the target element.
