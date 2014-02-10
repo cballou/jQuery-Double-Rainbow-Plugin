@@ -62,3 +62,6 @@ background-image:      -o-linear-gradient(top, #2F2727, #1a82f7);
 filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#1471da, endColorstr=#1C85FB);
 -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#1471da, endColorstr=#1C85FB)";
 ```
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/cballou/jquery-double-rainbow-plugin/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
