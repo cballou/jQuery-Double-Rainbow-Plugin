@@ -1,8 +1,23 @@
-## About ##
+# Double Rainbow jQuery Plugin #
 
 Double Rainbow is a jQuery plugin for creating subtle, mouse-aware call to action effects on elements within your websites.
-It currently supports the transitioning of foreground and background colors on things like buttons and anchors as your mouse
-moves around a target element. The goal is to bring attention to a call to action button as the user moves closer to the element.
+It currently supports the transitioning of foreground and background colors on things like buttons and anchors as your mouse moves around a target element. The goal is to bring attention to a call to action button as the user moves closer to the element.
+
+For more in depth documentation, please visit the official website.
+
+[Official Double Rainbow Website](https://www.coreyballou.com/projects/jquery-double-rainbow-plugin/)
+
+## Example Usage ##
+
+```javascript
+// example usage
+$('#exampleButton').doubleRainbow({
+  startColor: '#FFF',
+  startBgColor: '#222',
+  endColor: '#FFF',
+  endBgColor: '#900'
+});
+```
 
 ## Options ##
 
@@ -25,18 +40,6 @@ $.fn.doubleRainbow.defaults = {
 * _endBgColor:_ The ending HEX background color of the target element.
 * _startColor:_ The starting HEX font color of the target element.
 * _endColor:_ The ending HEX font color of the target element.
-
-## Example Usage ##
-
-```javascript
-// example usage
-$('#exampleButton').doubleRainbow({
-  startColor: '#FFF',
-  startBgColor: '#222',
-  endColor: '#FFF',
-  endBgColor: '#900'
-});
-```
 
 ## Future Enhancements ##
 
